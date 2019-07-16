@@ -35,7 +35,7 @@
                 <div class="col-12">
                     <nav class="navbar navbar-expand-lg">
                         <!-- Logo -->
-                        <a class="navbar-brand" href="index.html"><img src="{{ asset('assets/frontend/img/core-img/logo.png')}}" alt="Logo"></a>
+                        <a class="navbar-brand" href="index.html"></a>
                         <!-- Navbar Toggler -->
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#worldNav" aria-controls="worldNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                         <!-- Navbar -->
@@ -55,15 +55,6 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="contact">Contact</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/admin/artikel">Artikel</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/kategori">Kategori</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="/admin/tag">Tag</a>
                                 </li>
                             </ul>
                             <!-- Search Form  -->
@@ -88,9 +79,9 @@
         <!-- Hero Slides Area -->
         <div class="hero-slides owl-carousel">
             <!-- Single Slide -->
-            <div class="single-hero-slide bg-img background-overlay" style="background-image: url(assets/frontend/img/blog-img/bg2.jpg);"></div>
+            <div class="single-hero-slide bg-img background-overlay" style="background-image: url(assets/frontend/img/blog-img/liwet.jpeg);"></div>
             <!-- Single Slide -->
-            <div class="single-hero-slide bg-img background-overlay" style="background-image: url(assets/frontend/img/blog-img/bg1.jpg);"></div>
+            <div class="single-hero-slide bg-img background-overlay" style="background-image: url(assets/frontend/img/blog-img/sunda.jpeg);"></div>
         </div>
 
         <!-- Hero Post Slide -->
@@ -100,40 +91,13 @@
                     <div class="col-12">
                         <div class="hero-post-slide">
                             <!-- Single Slide -->
-                            <div class="single-slide d-flex align-items-center">
-                                <div class="post-number">
-                                    <p>1</p>
-                                </div>
-                                <div class="post-title">
-                                    <a href="single-blog.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex</a>
-                                </div>
-                            </div>
+                           
                             <!-- Single Slide -->
-                            <div class="single-slide d-flex align-items-center">
-                                <div class="post-number">
-                                    <p>2</p>
-                                </div>
-                                <div class="post-title">
-                                    <a href="single-blog.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex</a>
-                                </div>
-                            </div>
+                           
                             <!-- Single Slide -->
-                            <div class="single-slide d-flex align-items-center">
-                                <div class="post-number">
-                                    <p>3</p>
-                                </div>
-                                <div class="post-title">
-                                    <a href="single-blog.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex</a>
-                                </div>
-                            </div>
+                           
                             <!-- Single Slide -->
-                            <div class="single-slide d-flex align-items-center">
-                                <div class="post-number">
-                                    <p>4</p>
-                                </div>
-                                <div class="post-title">
-                                    <a href="single-blog.html">How Did van Gogh’s Turbulent Mind Depict One of the Most Complex</a>
-                                </div>
+                          
                             </div>
                         </div>
                     </div>
@@ -151,43 +115,7 @@
                     <div class="post-content-area mb-50">
                         <!-- Catagory Area -->
                         <div class="world-catagory-area">
-                            <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                <li class="title">Don’t Miss</li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="tab1" data-toggle="tab" href="#world-tab-1" role="tab" aria-controls="world-tab-1" aria-selected="true">All</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab2" data-toggle="tab" href="#world-tab-2" role="tab" aria-controls="world-tab-2" aria-selected="false">Style hunter</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab3" data-toggle="tab" href="#world-tab-3" role="tab" aria-controls="world-tab-3" aria-selected="false">Vogue</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab4" data-toggle="tab" href="#world-tab-4" role="tab" aria-controls="world-tab-4" aria-selected="false">Health &amp; Fitness</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab5" data-toggle="tab" href="#world-tab-5" role="tab" aria-controls="world-tab-5" aria-selected="false">Travel</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab6" data-toggle="tab" href="#world-tab-6" role="tab" aria-controls="world-tab-6" aria-selected="false">Gadgets</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-                                    <div class="dropdown-menu">
-                                        <a class="nav-link" id="tab7" data-toggle="tab" href="#world-tab-7" role="tab" aria-controls="world-tab-7" aria-selected="false">Sports</a>
-                                        <a class="nav-link" id="tab8" data-toggle="tab" href="#world-tab-8" role="tab" aria-controls="world-tab-8" aria-selected="false">Politices</a>
-                                        <a class="nav-link" id="tab9" data-toggle="tab" href="#world-tab-9" role="tab" aria-controls="world-tab-9" aria-selected="false">Features</a>
-                                    </div>
-                                </li>
-                            </ul>
-
+`
                             <div class="tab-content" id="myTabContent">
 
                                 <div class="tab-pane fade show active" id="world-tab-1" role="tabpanel" aria-labelledby="tab1">
@@ -1148,43 +1076,7 @@
 
                         <!-- Catagory Area -->
                         <div class="world-catagory-area mt-50">
-                            <ul class="nav nav-tabs" id="myTab2" role="tablist">
-                                <li class="title">What's Trending</li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link active" id="tab10" data-toggle="tab" href="#world-tab-10" role="tab" aria-controls="world-tab-10" aria-selected="true">All</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab11" data-toggle="tab" href="#world-tab-11" role="tab" aria-controls="world-tab-11" aria-selected="false">Style hunter</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab12" data-toggle="tab" href="#world-tab-12" role="tab" aria-controls="world-tab-12" aria-selected="false">Vogue</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab13" data-toggle="tab" href="#world-tab-13" role="tab" aria-controls="world-tab-13" aria-selected="false">Health &amp; Fitness</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab14" data-toggle="tab" href="#world-tab-14" role="tab" aria-controls="world-tab-14" aria-selected="false">Travel</a>
-                                </li>
-
-                                <li class="nav-item">
-                                    <a class="nav-link" id="tab15" data-toggle="tab" href="#world-tab-15" role="tab" aria-controls="world-tab-15" aria-selected="false">Gadgets</a>
-                                </li>
-
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">More</a>
-                                    <div class="dropdown-menu">
-                                        <a class="nav-link" id="tab16" data-toggle="tab" href="#world-tab-16" role="tab" aria-controls="world-tab-16" aria-selected="false">Sports</a>
-                                        <a class="nav-link" id="tab17" data-toggle="tab" href="#world-tab-17" role="tab" aria-controls="world-tab-17" aria-selected="false">Politices</a>
-                                        <a class="nav-link" id="tab18" data-toggle="tab" href="#world-tab-18" role="tab" aria-controls="world-tab-18" aria-selected="false">Features</a>
-                                    </div>
-                                </li>
-                            </ul>
-
+                            
                             <div class="tab-content" id="myTabContent2">
 
                                 <div class="tab-pane fade show active" id="world-tab-10" role="tabpanel" aria-labelledby="tab10">
