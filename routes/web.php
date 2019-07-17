@@ -18,20 +18,32 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/category', function () {
-    return view('category');
+Route::get('/about', function () {
+    return view('about');
 });
 
 Route::get('/blog', function () {
     return view('blog');
 });
 
-Route::get('/regular', function () {
-    return view('regular');
+Route::get('/menu', function () {
+    return view('menu');
+});
+
+Route::get('/blog-home', function () {
+    return view('blog-home');
+});
+
+Route::get('/blog-details', function () {
+    return view('blog-details');
 });
 
 Route::get('/contact', function () {
     return view('contact');
+});
+
+Route::get('/elements', function () {
+    return view('elements');
 });
 
 Route::get('/siswa', function () {
