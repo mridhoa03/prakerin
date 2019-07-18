@@ -43,18 +43,18 @@
                         <span></span>
                     </div>  
                     <div class="main-menu main-menu2">
-                        <ul>
-                            <li class="active"><a href="index.html">home</a></li>
-                            <li><a href="about.html">about</a></li>
-                            <li><a href="menu.html">menu</a></li>
+                         <ul>
+                            <li class="active"><a href="/">home</a></li>
+                            <li><a href="about">about</a></li>
+                            <li><a href="menu">menu</a></li>
                             <li><a href="#">blog</a>
                                 <ul class="sub-menu">
-                                    <li><a href="blog-home.html">Blog Home</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
+                                    <li><a href="blog-home">Blog Home</a></li>
+                                    <li><a href="blog-details">Blog Details</a></li>
                                 </ul>
                             </li>
-                            <li><a href="contact-us.html">contact</a></li>
-                            <li><a href="elements.html">Elements</a></li>
+                            <li><a href="contact">contact</a></li>
+                            <li><a href="elements">Elements</a></li>
                         </ul>
                     </div>
                 </div>
